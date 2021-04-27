@@ -1,2 +1,2 @@
 # fundacion-mascotas
-Proyecto propio en construcción https://fundacionmascotas-jgonca.netlify.app/
+Proyecto en construcción https://fundacionmascotas-jgonca.netlify.app/
