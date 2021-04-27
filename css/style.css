@@ -27,6 +27,11 @@ img {
     max-width: 100%;
 }
 
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .barra {
     display: flex;
     justify-content: center;
@@ -151,5 +156,19 @@ img {
 
 .ubicacion {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .ubicacion {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.sucursal {
+    width: 95%;
 }
