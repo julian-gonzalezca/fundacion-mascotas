@@ -5,63 +5,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundación+Mascotas</title>
+    <title>Fundacion+Mascotas</title>
+    <meta name="description" content="Pagina Web de Practica">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/tabler-icon-feather.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="imagen-centrada">
-        <a href="index.html">
-            <img src="./img/encabezado.png" alt="Imagen Encabezado-Mascotas">
-        </a>
+
+    <header class="header">
+        <div class="contenedor ">
+            <div class="barra ">
+                <a class="logo " href="index.html ">
+                    <h1 class="logo__bold no-margin centrar-texto "><span class="logo__nombre ">+</span>Mascotas</h1>
+                </a>
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="adopciones.html">Adopciones</a>
+                    <a class="navegacion__enlace" href="requisitos.html">Requisitos</a>
+                    <a class="navegacion__enlace" href="ubicacion.html">Ubicaciones</a>
+                </nav>
+            </div>
+        </div>
+
     </header>
-    <nav class="barra">
-        <a class="boton" href="adopciones.html">Adopciones</a>
-        <a class="boton" href="requisitos.html">Requisitos</a>
-        <a class="boton" href="ubicacion.html">Ubicación</a>
-    </nav>
+    <div class="header__lower centrar-texto">
+        <p>¿querés una mascota? ¡adoptá!</p>
+    </div>
 
-    <h1 class="titulo">¿querés una mascota? ¡adoptá!</h1>
+    <div class="contenedor contenido-principal">
 
-    <main class="contenedor">
-        <div class="imagen-centrada">
-            <img src="./img/principal.jpg" alt="Imagen Principal-Mascotas">
-        </div>
+        <main>
+            <h2 class="centrar-texto">Nuestra Fundación</h2>
+            <div>
+                <img src="img/principal.jpg" alt="imagen-principal">
+            </div>
+            <div>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                    looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+                    1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum
+                    dolor sit amet..", comes from a line in section 1.10.32.</p>
+                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied
+                    by English versions from the 1914 translation by H. Rackham.</p>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+                    'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still
+                    in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied
+                    by English versions from the 1914 translation by H. Rackham.</p>
+            </div>
 
-        <div class="informacion">
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
-                of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-                amet..", comes from a line in section 1.10.32.</p>
-            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English
-                versions from the 1914 translation by H. Rackham.</p>
-        </div>
+        </main>
 
-    </main>
+        <aside>
+            <h2 class="centrar-texto">Vida con Mascotas</h2>
 
+            <div>
+                <h3>Consejos para novatos:</h3>
+                <img src="img/meter-una-nueva-mascota-en-casa.jpg" alt="imagen-mascota-nueva">
+                <p>Cuando ya hemos decidido que vamos a adoptar a una mascota en casa debemos valorar todas sus necesidades antes de que llegue para poder adaptar nuestro hogar a este nuevo miembro de la familia. No importa si se trata de un gato, un cachorro,
+                    un perro adulto, etc. Es importante tener en cuenta que necesitará un espacio para dormir, un espacio para comer y un espacio que sienta como propio y en el que pueda tener todas sus cosas. Recomendamos a ser posible suelos sencillos
+                    de limpiar, sin moquetas y sin alfombras, al menos al principio si se trata de un cachorro, porque hasta que no se adapte a estar en casa lo más normal es que tengamos que ir limpiando sus necesidades.</p>
+            </div>
+
+            <div>
+                <h3>Vacaciones con mascotas:</h3>
+                <img src="img/vacaciones-con-mascotas.jpg" alt="imagen-mascota-vacaciones">
+                <p>Si no quieres dejar a tu perro o tu gato atrás en estas vacaciones, lo mejor es que planifiques tu alojamiento con tiempo suficiente, siempre previendo que el lugar oferte la posibilidad de registrarte con mascotas. Algunos portales te
+                    permitirán conocer las mejores opciones en este sentido.</p>
+            </div>
+
+        </aside>
+    </div>
     <footer class="footer">
 
-        <a href="https://www.facebook.com/jgonzalezcard/" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-            </svg>
-        </a>
-
-        <a href="https://twitter.com/home?lang=es" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"></path>
-             </svg>
-        </a>
-
-        <p>Todos los derechos reservados - Julián González &copy;</p>
+        <div class="contenedor">
+            <div class="barra ">
+                <a class="logo " href="index.html ">
+                    <h1 class="logo__bold logo__inferior no-margin centrar-texto "><span class="logo__nombre ">+</span>Mascotas</h1>
+                </a>
+                <div class="iconos">
+                    <a href="https://www.facebook.com/jgonzalezcard/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/home?lang=es/jgonzalezcard" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                        </svg>
+                    </a>
+                </div>
+                <nav class="navegacion">
+                    <a class="navegacion__enlace-inferior" href="adopciones.html">Adopciones</a>
+                    <a class="navegacion__enlace-inferior" href="requisitos.html">Requisitos</a>
+                    <a class="navegacion__enlace-inferior" href="ubicacion.html">Ubicaciones</a>
+                </nav>
+            </div>
         </div>
+
     </footer>
-
-
 </body>
 
 </html>
