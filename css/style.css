@@ -22,6 +22,12 @@ body {
     line-height: 2;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 
 /*GLOBALES*/
 
@@ -33,7 +39,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none!important;
 }
 
 h1,
@@ -49,6 +55,11 @@ h1 {
 
 img {
     max-width: 100%;
+}
+
+h2,
+h3 {
+    font-weight: bold;
 }
 
 
@@ -97,6 +108,10 @@ img {
     color: #4CAEC4;
 }
 
+.logo:hover {
+    color: #000000;
+}
+
 .logo__nombre {
     font-weight: normal;
 }
@@ -128,7 +143,7 @@ img {
     text-transform: uppercase;
     font-weight: bold;
     background-color: #4CAEC4;
-    margin-top: -1.6rem;
+    /*margin-top: -1.6rem;*/
     /*elimina la separacion entre la barra y el  elemento 'header__lower' y el header*/
 }
 
@@ -140,7 +155,29 @@ img {
         display: grid;
         grid-template-columns: 3fr 1fr;
         column-gap: 5rem;
-        margin-top: -1.6rem;
+        /*margin-top: -1.6rem;*/
+    }
+}
+
+.contenido-blog {
+    background-color: #D4DDDF;
+    width: min(160rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+@media (min-width: 992px) {
+    .contenido-blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenido-entrada {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
     }
 }
 
@@ -149,7 +186,37 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -1.6rem;
+    /*margin-top: -1.6rem;*/
+}
+
+.carousel-background {
+    background-color: #D4DDDF;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.imagen-border {
+    border-radius: 1rem;
+}
+
+.entrada {
+    border-bottom: 1px solid #9FB0B6;
+    margin-bottom: 2rem;
+}
+
+.entrada:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+
+.boton-blog {
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #4CAEC4;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.8rem;
+    color: #000000;
 }
 
 
@@ -265,6 +332,10 @@ img {
 
 .logo__inferior {
     color: #FFFFFF;
+}
+
+.logo__inferior:hover {
+    color: #000000;
 }
 
 .navegacion__enlace-inferior {
